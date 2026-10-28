@@ -1,0 +1,17 @@
+{
+  "selection_metric": "validation_mse",
+  "epoch": 29080,
+  "checkpoint": "best_mse.pt",
+  "checkpoint_sha256": "e8771477a7f17584e3d559e5bffc41a1f9e6ee06e7e20a3be2cae083f93184d5",
+  "validation_metrics": {
+    "mse": 0.0009964490274241553,
+    "rho": 0.9349066569305898,
+    "tau": 0.8128591392923296,
+    "p10": 0.6671428571428571,
+    "p20": 0.7178571428571429,
+    "pair_count": 58800,
+    "query_count": 140,
+    "candidate_count": 420,
+    "validation_queries_are_in_database": false
+  }
+}

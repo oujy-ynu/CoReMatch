@@ -1,0 +1,11 @@
+# Tested with Python 3.10, PyTorch 2.1.2 and CUDA 12.1 wheels.
+--extra-index-url https://download.pytorch.org/whl/cu121
+--find-links https://data.pyg.org/whl/torch-2.1.2+cu121.html
+
+numpy==1.26.4
+scipy==1.11.4
+torch==2.1.2+cu121
+torch-geometric==2.5.3
+torch-scatter==2.1.2+pt21cu121
+tqdm==4.66.5
+networkx==3.2.1
